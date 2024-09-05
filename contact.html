@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APFEL ACADEMY</title>
+  <!-- favicon -->
+  <link rel="icon" href="./images/logo.png">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .lihover {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 0;
+          height: 2px;
+          background-color: #3b82f6;
+          transition: width 0.3s ease-in-out;
+      }
+
+      .group:hover .lihover {
+          width: 100%;
+      }
+  </style>
+</head>
+
+<body>
+  <header class="font-semibold flex items-center justify-between fixed bg-white w-full">
+    <!-- logo -->
+    <a href="">
+      <img src="./images/logo1.png" alt="" class="w-20 h-20 mx-5 md:mx-20">
+    </a>
+
+    <!-- menu -->
+    <div id="menu-container">
+      <ul id="menu" class="hidden md:flex gap-20 text-xl px-10">
+        <li class="relative group">
+          <a href="./index.html">Home</a>
+          <span class="lihover"></span>
+        </li>
+        <li class="relative group">
+          <a href="./about.html">About</a>
+          <span class="lihover"></span>
+        </li>
+        <li class="relative group">
+          <a href="./placements.html">Placements</a>
+          <span class="lihover"></span>
+        </li>
+        <li class="relative group">
+          <a href="./gallery.html">Gallery</a>
+          <span class="lihover"></span>
+        </li>
+        <li class="relative group">
+          <a href="./contact.html">Contact</a>
+          <span class="lihover"></span>
+        </li>
+      </ul>
+    </div>
+    <!-- toggle button -->
+    <button id="menu-toggle" class="md:hidden me-5">
+      <i class="fa-solid fa-bars fa-2x"></i>
+    </button>
+
+    <!-- mobile menu -->
+  </header>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu"
+    class="fixed top-20 left-0 md:hidden bg-gray-100 font-semibold transform -translate-x-full transition-transform duration-500 ease-in-out w-52 h-full shadow-lg">
+    <nav class="flex flex-col p-4 space-y-2 ">
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./placements.html">Placements</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </div>
+  <main class="container-fluid">
+   <section class="bg-gray-600 h-screen"></section>
+    <section>
+      <div class="flex flex-col md:flex-row  bg-gray-200">
+        <div class="flex-1 p-4">
+          <div class=" p-3 ">
+              <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
+
+              <div class="flex    mt-5">
+                  <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
+                      <div
+                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
+                          <i class="fa-brands fa-youtube fa-xl "></i>
+                      </div>
+                  </a>
+                  <a href="" target="_blank" class="me-6">
+                      <div
+                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
+                          <i class="fa-brands fa-facebook fa-xl "></i>
+                      </div>
+                  </a>
+                  <a href="https://www.instagram.com/apfel_academy/" target="_blank">
+                      <div
+                          class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
+
+                          <i class="fa-brands fa-instagram fa-xl"></i>
+
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+        <div class="flex-1  p-4 ">
+          <div class="p-3">
+            <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
+            <div class="mt-5">
+              <a href="" class="links text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i class="fas fa-phone  me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>+91
+                1234567890
+              </a><br>
+              <a href="mailto:renjithpstech@gmail.com"
+                class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-envelope me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>apfelacademy@gmail.com
+              </a>
+              <br>
+
+              <a href="mailto:" class=" text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-envelope  me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>apfelacademy@gmail.com
+              </a><br>
+              <a href="https://maps.app.goo.gl/HnfQTrHqXkMbupR67"
+                class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i class="fas fa-map-marker-alt  me-5 transition-all duration-300 ease-in-out group-hover:pr-2 "></i>
+                Thrissur,Kerala
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1  p-4 ">
+
+          <div class="p-3">
+            <h2 class="text-4xl font-bold text-gray-800 ">Quick Links</h2>
+            <div class="mt-5">
+              <a href="#" class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>Home
+              </a> <br>
+              <a href="about.html" class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>About
+              </a> <br>
+              <a href="placements.html"
+                class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>Placements
+              </a><br>
+              <a href="gallery.html" class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>Gallery
+              </a><br>
+              <a href="contact.html" class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
+                <i
+                  class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>Contact
+              </a><br>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <h1 class="text-xl text-center bg-slate-400 p-3">Copyright © 2024 by Apfel || All Rights reserved</h1>
+  </footer>
+
+
+
+</body>
+<script>
+  const menuButton = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuButton.addEventListener('click', () => {
+    // Toggle class to slide the menu in and out
+    mobileMenu.classList.toggle('translate-x-0')
+
+  });
+</script>
+
+
+</html>
