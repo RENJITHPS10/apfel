@@ -12,21 +12,21 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      .lihover {
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 0;
-          height: 2px;
-          background-color: #3b82f6;
-          transition: width 0.3s ease-in-out;
-      }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .lihover {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #3b82f6;
+      transition: width 0.3s ease-in-out;
+    }
 
-      .group:hover .lihover {
-          width: 100%;
-      }
+    .group:hover .lihover {
+      width: 100%;
+    }
   </style>
 </head>
 
@@ -80,38 +80,106 @@
       <a href="./contact.html">Contact</a>
     </nav>
   </div>
+
+
   <main class="container-fluid">
-   <section class="bg-gray-600 h-screen"></section>
+
+      <div class="antialiased bg-cyan-600">
+        <div class="flex w-full min-h-screen justify-center items-center">
+          <div
+            class=" flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
+
+            <div class=" flex flex-col space-y-8 justify-center">
+              <div>
+                <h1 class="font-bold text-4xl tracking-wide">Contact Us</h1>
+                <p class="pt-2 text-cyan-100 text-sm text-justify">At Apfel Academy, we’re here to help you unlock your full potential. Whether you have questions about our courses, need assistance with enrollment, or want to know more about our learning resources, feel free to get in touch with us. Our team is dedicated to providing you with all the support you need.</p>
+              </div>
+              <div class="flex flex-col space-y-6">
+                <div class="inline-flex space-x-2 items-center">
+                  <ion-icon name="call" class="text-teal-300 text-xl"> </ion-icon>
+                  <span>+91 1234567890</span>
+                </div>
+
+                <div class="inline-flex space-x-2 items-center">
+                  <ion-icon name="mail" class="text-teal-300 text-xl"> </ion-icon>
+                  <span>apfelacademy@gmail.com</span>
+                </div>
+
+                <div class="inline-flex space-x-2 items-center">
+                  <ion-icon name="location" class="text-teal-300 text-xl"> </ion-icon>
+                  <span>Thrissur,kerala</span>
+                </div>
+              </div>
+
+              <div class="flex space-x-4  text-lg">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon> </a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon> </a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon> </a>
+              </div>
+            </div>
+
+
+            <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
+              <form action="" class="flex flex-col space-y-4">
+                <div>
+                  <label for="" class="text-sm">Your name</label>
+                  <input type="text" placeholder="Your name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2
+           outline-none focus:ring-2 focus:ring-teal-300" />
+                </div>
+
+
+                <div>
+                  <label for="" class="text-sm">Email Address</label>
+                  <input type="email" placeholder="Email Address" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2
+               outline-none focus:ring-2 focus:ring-teal-300">
+                </div>
+
+                <div>
+                  <label for="" class="text-sm">Send Message</label>
+                  <textarea type="email" placeholder="Message" rows="4" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2
+               outline-none focus:ring-2 focus:ring-teal-300"></textarea>
+                </div>
+                <button
+                  class="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send
+                  Message</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     <section>
       <div class="flex flex-col md:flex-row  bg-gray-200">
         <div class="flex-1 p-4">
           <div class=" p-3 ">
-              <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
+            <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
 
-              <div class="flex    mt-5">
-                  <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
-                      <div
-                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
-                          <i class="fa-brands fa-youtube fa-xl "></i>
-                      </div>
-                  </a>
-                  <a href="" target="_blank" class="me-6">
-                      <div
-                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
-                          <i class="fa-brands fa-facebook fa-xl "></i>
-                      </div>
-                  </a>
-                  <a href="https://www.instagram.com/apfel_academy/" target="_blank">
-                      <div
-                          class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
+            <div class="flex    mt-5">
+              <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
+                <div
+                  class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
+                  <i class="fa-brands fa-youtube fa-xl "></i>
+                </div>
+              </a>
+              <a href="" target="_blank" class="me-6">
+                <div
+                  class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
+                  <i class="fa-brands fa-facebook fa-xl "></i>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/apfel_academy/" target="_blank">
+                <div
+                  class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
 
-                          <i class="fa-brands fa-instagram fa-xl"></i>
+                  <i class="fa-brands fa-instagram fa-xl"></i>
 
-                      </div>
-                  </a>
-              </div>
+                </div>
+              </a>
+            </div>
           </div>
-      </div>
+        </div>
         <div class="flex-1  p-4 ">
           <div class="p-3">
             <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
