@@ -12,21 +12,21 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      .lihover {
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 0;
-          height: 2px;
-          background-color: #3b82f6;
-          transition: width 0.3s ease-in-out;
-      }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .lihover {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #3b82f6;
+      transition: width 0.3s ease-in-out;
+    }
 
-      .group:hover .lihover {
-          width: 100%;
-      }
+    .group:hover .lihover {
+      width: 100%;
+    }
   </style>
 </head>
 
@@ -48,7 +48,7 @@
           <a href="./about.html">About</a>
           <span class="lihover"></span>
         </li>
-        
+
         <li class="relative group">
           <a href="./gallery.html">Gallery</a>
           <span class="lihover"></span>
@@ -72,43 +72,119 @@
     <nav class="flex flex-col p-4 space-y-2 ">
       <a href="./index.html">Home</a>
       <a href="./about.html">About</a>
-    
+
       <a href="./gallery.html">Gallery</a>
       <a href="./contact.html">Contact</a>
     </nav>
   </div>
   <main class="container-fluid">
-    <section class="bg-gray-600 h-screen"></section>
+    <!-- about section -->
+    <section class="bg-slate-100">
+      <div class="text-center">
+        <!-- Emoji Image -->
+        <img src="" alt="emoji" class="mb-5 w-24 h-24 ">
+
+        <!-- Main Heading -->
+        <h1 class="md:text-7xl text-4xl font-bold text-black">Behind the Bytes:</h1>
+        <h2 class="md:text-5xl text-3xl font-bold text-black p-5">Our Story at APFEL</h2>
+
+        <!-- Subtext -->
+        <p class="text-xl mt-4 text-gray-500">
+          Take a sneak peek in to <a href="#" class="text-green-600 ">our journey</a>
+        </p>
+      </div>
+    </section>
+    <section class="bg-gray-200 py-14">
+      <div class="max-w-7xl mx-auto py-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <!-- Card 1 -->
+          <div class="bg-white p-8 text-center">
+            <h2 class="text-5xl font-bold text-green-600">9</h2>
+            <h3 class="text-xl font-semibold text-gray-800 mt-4">Years Of Expertise</h3>
+            <p class="mt-4 text-gray-600">With over 8 years of expertise, we provide top-notch coaching in German,
+              English, and competitive exam preparation, tailored to meet your unique learning needs, whether you're a
+              beginner or preparing for high-stakes exams</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white p-8 text-center">
+            <h2 class="text-5xl font-bold text-green-600">5000+</h2>
+            <h3 class="text-xl font-semibold text-gray-800 mt-4">Success Stories</h3>
+            <p class="mt-4 text-gray-600">With over 5,000 success stories, our expert coaching has empowered learners to
+              excel in German, English, and competitive exams. No matter your goals, we've got you covered with
+              personalized guidance and proven results</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white p-8 text-center">
+            <h2 class="text-5xl font-bold text-green-600">10,000+</h2>
+            <h3 class="text-xl font-semibold text-gray-800 mt-4">Education Across Continents</h3>
+            <p class="mt-4 text-gray-600">Bridging cultures and boundaries, our tailored coaching programs empower
+              learners from every corner of the world to achieve excellence in language mastery and competitive exam
+              preparation</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white p-8 text-center">
+            <h2 class="text-5xl font-bold text-green-600">50+</h2>
+            <h3 class="text-xl font-semibold text-gray-800 mt-4">Personalized Learning Journeys</h3>
+            <p class="mt-4 text-gray-600">With a dedicated team of 50+ expert instructors, our personalized learning
+              journeys ensure you receive tailored guidance and support, empowering you to excel in language mastery and
+              competitive exams</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-gray-100 p-8  rounded-lg shadow-md">
+      <h2 class="text-2xl font-bold mb-4">Our Services</h2>
+      <p class="text-gray-700 leading-relaxed flex justify-between text-justify">
+        Apfel Academy is your gateway to excellence in language education and competitive exam preparation. With a
+        dedicated team of over 50 experienced instructors, we offer personalized coaching in German and English,
+        tailored
+        to meet the unique needs of each learner. Our comprehensive curriculum covers everything from foundational
+        skills
+        to advanced language proficiency, ensuring that every student can progress at their own pace.
+
+        We utilize proven teaching methods and extensive resources to empower students to achieve their goals, unlocking
+        their full potential on a global stage. Committed to fostering a supportive and engaging learning environment,
+        we
+        strive to inspire confidence and cultivate skills that last a lifetime. At Apfel Academy, we believe that
+        education is a journey, and we are here to guide you every step of the way. Join us and embark on a
+        transformative
+        educational experience that will set you on the path to success in language mastery and beyond!
+      </p>
+    </div>
     <section>
       <div class="flex flex-col md:flex-row  bg-gray-200">
         <div class="flex-1 p-4">
           <div class=" p-3 ">
-              <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
+            <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
 
-              <div class="flex    mt-5">
-                  <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
-                      <div
-                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
-                          <i class="fa-brands fa-youtube fa-xl "></i>
-                      </div>
-                  </a>
-                  <a href="" target="_blank" class="me-6">
-                      <div
-                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
-                          <i class="fa-brands fa-facebook fa-xl "></i>
-                      </div>
-                  </a>
-                  <a href="https://www.instagram.com/apfel_academy/" target="_blank">
-                      <div
-                          class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
+            <div class="flex    mt-5">
+              <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
+                <div
+                  class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
+                  <i class="fa-brands fa-youtube fa-xl "></i>
+                </div>
+              </a>
+              <a href="" target="_blank" class="me-6">
+                <div
+                  class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
+                  <i class="fa-brands fa-facebook fa-xl "></i>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/apfel_academy/" target="_blank">
+                <div
+                  class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
 
-                          <i class="fa-brands fa-instagram fa-xl"></i>
+                  <i class="fa-brands fa-instagram fa-xl"></i>
 
-                      </div>
-                  </a>
-              </div>
+                </div>
+              </a>
+            </div>
           </div>
-      </div>
+        </div>
         <div class="flex-1  p-4 ">
           <div class="p-3">
             <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
@@ -149,7 +225,7 @@
                 <i
                   class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>About
               </a> <br>
-            
+
               <a href="gallery.html" class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                 <i
                   class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>Gallery
