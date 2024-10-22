@@ -12,21 +12,26 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      .lihover {
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 0;
-          height: 2px;
-          background-color: #3b82f6;
-          transition: width 0.3s ease-in-out;
-      }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .lihover {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #3b82f6;
+      transition: width 0.3s ease-in-out;
+    }
 
-      .group:hover .lihover {
-          width: 100%;
-      }
+    .group:hover .lihover {
+      width: 100%;
+    }
+
+    #apps:hover {
+      background-color: green;
+      color: white;
+    }
   </style>
 </head>
 
@@ -48,7 +53,7 @@
           <a href="./about.html">About</a>
           <span class="lihover"></span>
         </li>
-       
+
         <li class="relative group">
           <a href="./gallery.html">Gallery</a>
           <span class="lihover"></span>
@@ -72,43 +77,88 @@
     <nav class="flex flex-col p-4 space-y-2 ">
       <a href="./index.html">Home</a>
       <a href="./about.html">About</a>
-     
+
       <a href="./gallery.html">Gallery</a>
       <a href="./contact.html">Contact</a>
     </nav>
   </div>
   <main class="container-fluid">
-   <section class="bg-gray-600 h-screen"></section>
+   <section class="bg-slate-100">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-40">
+      <div class="md:ms-4 flex ">
+          <img src="./images/WhatsApp Image 2024-10-20 at 20.51.46_ab624687.jpg" alt="no image" class="w-1/2 md:w-full px-1 h-96 rounded shadow-2xl bg-cover">
+          <img src="./images/WhatsApp Image 2024-10-20 at 20.51.46_f3499275.jpg" alt="no image" class="w-1/2 md:w-full  h-96 md:ms-3 md:me-3 px-1 rounded shadow-2xl bg-cover">
+      </div>
+      
+      
+      <div class=" p-4">
+          <h1 class="font-bold text-green-600 text-5xl text-md-center mt-12">Greatest  Infrastructure</h1>
+          <p class="text-md-center mt-12">Our mission is to ensure 100% placements for students who enroll in our specialized courses. Our placement assistance includes resume preparation, mock interviews with experienced professionals, aptitude test training, and interview support.</p>
+          <div   class="mt-12 flex fa-2x justify-around flex-wrap">
+              <a id="apps" href="" class="w-16 h-16 border border-black rounded-full mx-5"><i class="fa-brands fa-instagram justify-center m-4"></i></a>
+              <a id="apps" href="" class=" w-16 h-16 border border-black rounded-full mx-5"><i class="fa-brands fa-linkedin-in m-4"></i></a>
+              <a id="apps" href="" class="w-16 h-16 border border-black rounded-full mx-5"><i class="fa-brands fa-facebook m-4"></i></a>
+              <a id="apps" href="" class="w-16 h-16 border border-black rounded-full mx-5 md:mt-0 mt-5"><i class="fa-brands fa-x-twitter m-4"></i></a>
+              <a id="apps" href="" class="w-16 h-16 border border-black rounded-full mx-5 md:mt-0 mt-5"><i class="fa-brands fa-threads m-4"></i></a>
+          </div>
+      </div>
+    </div>
+
+  <div style="margin-top:20%;margin-bottom: 20%;" class="grid 
+  grid-cols-1 md:grid-cols-2 gap-4">
+      <div class=" p-4">
+          <h1 class="font-bold text-green-600 text-5xl text-md-center mt-8">100% Placement Assistance</h1>
+          <p class="text-md-center mt-12">Our mission is to provide 100% placements to students those who enrol for our specialised courses. Our Placement assistance starts with Resume preparation, Mock Interviews by real working professionals, Aptitude test training & Interviews.</p>
+          <div   class="mt-8 flex fa-2x justify-around">
+              
+              <button id="apps" class="border border-green-600 text-xl w-24 h-12 rounded-full">View All</button>
+          </div>
+      </div> 
+
+      <div class="ms-4 flex">
+          <img src="./images/WhatsApp Image 2024-10-20 at 20.51.46_f51da54e.jpg" alt="no image" class="w-full h-96 rounded shadow-2xl">
+          
+      </div>
+
+  </div> 
+
+  <div style="margin-top:20%;" class="flex grid grid-cols-4 gap-4">
+      <img src="./images/WhatsApp Image 2024-10-20 at 20.51.45_03a45b8d.jpg" alt="no image" class="w-full rounded shadow-2xl">
+      <img src="./images/WhatsApp Image 2024-10-20 at 20.51.46_07e47f95.jpg" alt="no image" class="w-full rounded shadow-2xl">
+      <img src="./images/WhatsApp Image 2024-10-20 at 20.52.08_0927f8c6.jpg" alt="no image" class="w-full rounded shadow-2xl">
+      <img src="./images//WhatsApp Image 2024-10-20 at 20.52.08_1459eb5e.jpg" alt="no image" class="w-full rounded shadow-2xl">
+  </div>
+   </section>
     <section>
       <div class="flex flex-col md:flex-row  bg-gray-200">
         <div class="flex-1 p-4">
           <div class=" p-3 ">
-              <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
+            <h2 class="text-4xl font-bold text-gray-800">Follow Us</h2>
 
-              <div class="flex    mt-5">
-                  <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
-                      <div
-                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
-                          <i class="fa-brands fa-youtube fa-xl "></i>
-                      </div>
-                  </a>
-                  <a href="" target="_blank" class="me-6">
-                      <div
-                          class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
-                          <i class="fa-brands fa-facebook fa-xl "></i>
-                      </div>
-                  </a>
-                  <a href="https://www.instagram.com/apfel_academy/" target="_blank">
-                      <div
-                          class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
+            <div class="flex    mt-5">
+              <a href="https://www.youtube.com/@ApfelAcademy396" target="_blank" class="me-6">
+                <div
+                  class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-red-600  text-red-600 hover:text-white">
+                  <i class="fa-brands fa-youtube fa-xl "></i>
+                </div>
+              </a>
+              <a href="" target="_blank" class="me-6">
+                <div
+                  class="flex items-center justify-center h-12 w-12  bg-white rounded-lg transition-colors duration-300 ease-in-out hover:bg-blue-600  text-blue-600 hover:text-white">
+                  <i class="fa-brands fa-facebook fa-xl "></i>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/apfel_academy/" target="_blank">
+                <div
+                  class="flex items-center justify-center h-12 w-12 bg-white rounded-lg transition-colors duration-300 ease-in-out me-6 text-pink-800 hover:text-white hover:bg-gradient-to-tr hover:from-purple-500 hover:via-pink-500 hover:to-yellow-500">
 
-                          <i class="fa-brands fa-instagram fa-xl"></i>
+                  <i class="fa-brands fa-instagram fa-xl"></i>
 
-                      </div>
-                  </a>
-              </div>
+                </div>
+              </a>
+            </div>
           </div>
-      </div>
+        </div>
         <div class="flex-1  p-4 ">
           <div class="p-3">
             <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
@@ -149,7 +199,7 @@
                 <i
                   class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>About
               </a> <br>
-             
+
               <a href="gallery.html" class="text-2xl group transition-all duration-300 ease-in-out hover:text-teal-500">
                 <i
                   class="fas fa-arrow-right me-5 transition-all duration-300 ease-in-out group-hover:pr-2 mb-5"></i>Gallery

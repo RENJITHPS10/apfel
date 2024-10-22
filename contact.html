@@ -81,71 +81,72 @@
 
   <main class="container-fluid">
 
-      <div class="antialiased bg-cyan-600">
-        <div class="flex w-full min-h-screen justify-center items-center ">
-          <div
-            class=" flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white mt-14  ">
-
-            <div class=" flex flex-col space-y-8 justify-center ">
+    <div class="antialiased bg-slate-200">
+      <div class="flex w-full min-h-screen justify-center items-center">
+        <div class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-900 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white mt-14">
+          
+          <!-- Left Section: Contact Info -->
+          <div class="flex flex-col space-y-8 justify-center w-full md:w-1/2">
+            <div>
+              <h1 class="font-bold text-4xl tracking-wide">Contact Us</h1>
+              <p class="pt-2 text-cyan-100 text-sm text-justify">
+                At Apfel Academy, we’re here to help you unlock your full potential. Whether you have questions about our courses, need assistance with enrollment, or want to know more about our learning resources, feel free to get in touch with us. Our team is dedicated to providing you with all the support you need.
+              </p>
+            </div>
+            
+            <!-- Contact Details -->
+            <div class="flex flex-col space-y-6">
+              <div class="inline-flex  items-center">
+                <ion-icon name="call" class="text-teal-300 text-xl"></ion-icon>
+                <span>+91 1234567890</span>
+              </div>
+              <div class="inline-flex  items-center">
+                <ion-icon name="mail" class="text-teal-300 text-xl"></ion-icon>
+                <span>apfelacademy@gmail.com</span>
+              </div>
+              <div class="inline-flex  items-center">
+                <ion-icon name="location" class="text-teal-300 text-xl"></ion-icon>
+                <span>Thrissur, Kerala</span>
+              </div>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="flex space-x-4 text-lg">
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+    
+          <!-- Right Section: Contact Form -->
+          <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600 w-full md:w-1/2">
+            <form action="" class="flex flex-col space-y-4">
               <div>
-                <h1 class="font-bold text-4xl tracking-wide ">Contact Us</h1>
-                <p class="pt-2 text-cyan-100 text-sm text-justify">At Apfel Academy, we’re here to help you unlock your full potential. Whether you have questions about our courses, need assistance with enrollment, or want to know more about our learning resources, feel free to get in touch with us. Our team is dedicated to providing you with all the support you need.</p>
+                <label for="name" class="text-sm">Your Name</label>
+                <input type="text" id="name" placeholder="Your name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300" />
               </div>
-              <div class="flex flex-col space-y-6">
-                <div class="inline-flex space-x-2 items-center">
-                  <ion-icon name="call" class="text-teal-300 text-xl"> </ion-icon>
-                  <span>+91 1234567890</span>
-                </div>
-
-                <div class="inline-flex space-x-2 items-center">
-                  <ion-icon name="mail" class="text-teal-300 text-xl"> </ion-icon>
-                  <span>apfelacademy@gmail.com</span>
-                </div>
-
-                <div class="inline-flex space-x-2 items-center">
-                  <ion-icon name="location" class="text-teal-300 text-xl"> </ion-icon>
-                  <span>Thrissur,kerala</span>
-                </div>
+              
+              <div>
+                <label for="email" class="text-sm">Email Address</label>
+                <input type="email" id="email" placeholder="Email Address" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300" />
               </div>
-
-              <div class="flex space-x-4  text-lg">
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon> </a>
-                <a href="#"><ion-icon name="logo-twitter"></ion-icon> </a>
-                <a href="#"><ion-icon name="logo-linkedin"></ion-icon> </a>
-                <a href="#"><ion-icon name="logo-instagram"></ion-icon> </a>
+              
+              <div>
+                <label for="message" class="text-sm">Send Message</label>
+                <textarea id="message" placeholder="Message" rows="4" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal-300"></textarea>
               </div>
-            </div>
-
-
-            <div class="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
-              <form action="" class="flex flex-col space-y-4">
-                <div>
-                  <label for="" class="text-sm">Your name</label>
-                  <input type="text" placeholder="Your name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2
-           outline-none focus:ring-2 focus:ring-teal-300" />
-                </div>
-
-
-                <div>
-                  <label for="" class="text-sm">Email Address</label>
-                  <input type="email" placeholder="Email Address" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2
-               outline-none focus:ring-2 focus:ring-teal-300">
-                </div>
-
-                <div>
-                  <label for="" class="text-sm">Send Message</label>
-                  <textarea type="email" placeholder="Message" rows="4" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2
-               outline-none focus:ring-2 focus:ring-teal-300"></textarea>
-                </div>
-                <button
-                  class="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send
-                  Message</button>
-              </form>
-
-            </div>
+              
+              <button type="submit" class="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
+                Send Message
+              </button>
+            </form>
           </div>
         </div>
       </div>
+    </div>
+    
+    
 
     <section>
       <div class="flex flex-col md:flex-row  bg-gray-200">
